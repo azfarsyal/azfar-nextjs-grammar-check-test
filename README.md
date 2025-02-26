@@ -1,6 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Grammar Checking Application
+This web application is built for the test purpose and it provided the live preview for grammar mistakes within an english language, constrained to 1000 characters.
 
-## Getting Started
+This web application use 3rd party API for Grammar Mistake Checking: [Language Tool API](https://languagetool.org/http-api/swagger-ui/#!/default/)
+- The usage of aforementioned API could be limited as this project is using free version of the API, so test for basic grammar mistakes rather than advance grammar mistakes.
+
+## How to get logged in?
+This web application uses the minimalistic Authentication for demonstration purposes only, so login using following credentials:
+- username: azfar
+- password: Admin@123
+
+## Getting Started Locally
 
 First, run the development server:
 
@@ -16,25 +25,13 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Environment Variables required
+- USER_NAME={Set User Name against which you will be logged in}
+- USER_PASSWORD={Set User Password against which you will be logged in}
+- JWT_SECRET_KEY={JWT secret key of your choice}
+- GRAMMAR_API_BASE_URL='https://api.languagetoolplus.com/v2'
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Author
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+- **Name:** Azfar Syal
+- **Portfolio:** [www.azfarsyal.com](www.azfarsyal.com)
