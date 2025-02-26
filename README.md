@@ -4,10 +4,21 @@ This web application is built for the test purpose and it provided the live prev
 This web application use 3rd party API for Grammar Mistake Checking: [Language Tool API](https://languagetool.org/http-api/swagger-ui/#!/default/)
 - The usage of aforementioned API could be limited as this project is using free version of the API, so test for basic grammar mistakes rather than advance grammar mistakes.
 
-## How to get logged in?
+## How to test and get logged in?
+You can test this app at: [https://azfar-nextjs-grammar-check-test.vercel.app/](https://azfar-nextjs-grammar-check-test.vercel.app/)
+
 This web application uses the minimalistic Authentication for demonstration purposes only, so login using following credentials:
 - username: azfar
 - password: Admin@123
+
+## Screenshots
+- ### Preview when there are grammar mistakes:
+
+![Highlighted Grammar Mistakes](https://ur00v1bupg5fagyd.public.blob.vercel-storage.com/images/readme/Live%20Grammer%20Checker%20Error.png)
+
+- ### Preview when the grammar is correct:
+
+![Correct Grammar View](https://ur00v1bupg5fagyd.public.blob.vercel-storage.com/images/readme/Live%20Grammer%20Checker%20Success.png)
 
 ## Getting Started Locally
 
